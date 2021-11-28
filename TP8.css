@@ -4,23 +4,11 @@ h1 {
 }
 body {
    font-family: monospace;
-   background-image: url(lemon.jpeg);
+   background-image: non /*url(lemon.jpeg)*/;
 }
 h4 {
     color:white;
     background-color: black;
-}
-#ingredients, #equipment, #directions{
-    opacity: .8;
-}
-#i {
-    color: skyblue;
-}
-#e {
-    color: pink;
-}
-#d {
-    color: lime;
 }
 @media screen and (max-width:500px) {
     #ingredients{
